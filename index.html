@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <body>
+        <div class="container">
+            <div class="project">
+                <div class="row">
+                  <div class="col-6">
+                      <form class="work" id="searchForm">
+          <input
+            type="text"
+            class="write"
+            placeholder="search for city"
+            autocomplete="off"
+            autofocus="on"
+            id="searchTextInput"
+          />
+          <input type="submit" value="search" class="fill" id="country-input" />
+        </form>
+        <div class="col-3">
+            <button
+              class="btn btn-success w-100"
+              id="current-location-button"
+            >
+              Current
+            </button>
+          </div>
+ 
+      
+        <h1 id="country"></h1>
+        <div class="complete" id="dates"></div>
+        <div id="cloudy"></div>
+        <div class="new" id="image">
+          <span class="accomplish">
+            <img src="images/myimage.jpg" width="50" /></span>
+          <span class="line" id="heat"></span>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix">
+              <div class="float-left">
+                <span class="temperature" id="cone"></span
+                ><span class="units">°C</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humid"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
+
+      <script src="./src/index.js"></script>  
+    </body>    
+</html>
