@@ -1,0 +1,18 @@
+.project {
+  padding-right: 50px auto;
+  margin-right: 50px auto;
+  border-radius: 10px;
+  display: inline;
+  font-size: 15px;
+}
+.work {
+  padding: 20px 20px 20px 0px;
+  border-radius: 10px;
+}
+.write {
+  font-size: 20px;
+}
+.fill {
+  border-radius: 10px;
+  font-size: 20px;
+}
